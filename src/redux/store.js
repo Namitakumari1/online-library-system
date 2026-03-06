@@ -1,3 +1,5 @@
+// Redux store configuration for managing books state
+
 import { configureStore } from "@reduxjs/toolkit";
 import bookReducer from "./bookSlice";
 
