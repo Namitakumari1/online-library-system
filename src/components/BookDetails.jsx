@@ -1,3 +1,4 @@
+// BookDetails component shows detailed information about a selected book
 import { Link, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 
