@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Main page heading */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* ---------------- NAVBAR ---------------- */
+
+.navbar {
+  background-color: #333;
+  padding: 15px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #ffd700;
+}
+/* ---------------- PAGE CONTAINER ---------------- */
+
+.container{
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ---------------- ADD BOOK PAGE ---------------- */
+
+.page-title{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form container */
+.book-form{
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 350px;
+  margin: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Inputs */
+.form-input{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Textarea */
+.form-textarea{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 80px;
+}
+
+/* Submit button */
+.submit-button{
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submit-button:hover{
+  background-color: darkgreen;
+}
+
+/* ---------------- BOOK LIST ---------------- */
+
+.book-card{
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.book-card:hover{
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+
+.book-title {
+  margin: 0;
+}
+
+.book-author {
+  color: #555;
+}
+
+/* ---------------- BUTTONS ---------------- */
+
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* ---------------- INPUT SEARCH ---------------- */
+
+input {
+  padding: 8px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+/* ---------------- FORM ---------------- */
+
+form input,
+form textarea {
+  width: 300px;
+  padding: 8px;
+}
+
+form textarea {
+  height: 80px;
+}
+
+form button {
+  padding: 8px 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: darkgreen;
+}
+
+/* ---------------- BOOK DETAILS ---------------- */
+
+.book-details-container {
+  background: white;
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ---------------- ERROR PAGE ---------------- */
+
+.error-container {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.home-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 15px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.home-button:hover {
+  background-color: darkred;
+}
