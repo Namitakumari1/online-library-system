@@ -69,4 +69,4 @@ https://github.com/Namitakumari1/online-library-system
 
 
 
-⭐ This project was created as part of a **React assignment** to practice **React Router, Redux Toolkit, and component-based architecture**.
+This project was created as part of a React assignment to practice React Router, Redux Toolkit and component-based architecture.
