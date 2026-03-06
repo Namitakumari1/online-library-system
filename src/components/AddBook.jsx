@@ -1,3 +1,4 @@
+// AddBook component contains form to add new books into Redux store
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
