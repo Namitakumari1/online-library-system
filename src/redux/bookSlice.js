@@ -1,3 +1,5 @@
+// Redux slice to manage books including addBook action
+
 import { createSlice } from "@reduxjs/toolkit";
 import dummyBooks from "../data/dummyBooks";
 
