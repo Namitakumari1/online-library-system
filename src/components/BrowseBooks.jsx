@@ -1,3 +1,5 @@
+// BrowseBooks component allows searching and filtering books by category
+
 import { useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { useSelector } from "react-redux";
