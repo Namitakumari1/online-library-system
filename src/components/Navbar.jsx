@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+// Navbar component for navigation between pages
 function Navbar() {
   return (
     <div className="navbar">
