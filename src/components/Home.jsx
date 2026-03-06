@@ -1,3 +1,5 @@
+// Home component displays categories and popular books
+
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
